@@ -1,0 +1,11 @@
+name: cv_project
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - numpy
+    - matplotlib
+    - opencv-python
+    - opencv-contrib-python
